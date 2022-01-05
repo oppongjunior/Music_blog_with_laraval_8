@@ -35,36 +35,29 @@
                                     <span class="nav-text">Users</span>
                                 </a>
                             </li>
-
-                            <li class="active">
-                                <a class="sidenav-item-link" href="{{ route('all.slider') }}">
-                                    <span class="nav-text">Slider</span>
-
+                            <li>
+                                <a class="sidenav-item-link" href="{{ route('all.songs') }}">
+                                    <span class="nav-text">Songs</span>
                                 </a>
                             </li>
                             <li>
-                                <a class="sidenav-item-link" href="{{ route('all.brands') }}">
-                                    <span class="nav-text">Brand</span>
+                                <a class="sidenav-item-link" href="{{ route('all.blogs') }}">
+                                    <span class="nav-text">Blog</span>
                                 </a>
                             </li>
                             <li>
-                                <a class="sidenav-item-link" href="{{ route('admin.about') }}">
-                                    <span class="nav-text">About</span>
+                                <a class="sidenav-item-link" href="{{ route('all.genre') }}">
+                                    <span class="nav-text">Genre</span>
                                 </a>
                             </li>
                             <li>
-                                <a class="sidenav-item-link" href="{{ route('admin.service') }}">
-                                    <span class="nav-text">Services</span>
+                                <a class="sidenav-item-link" href="{{ route('all.artist') }}">
+                                    <span class="nav-text">Artist</span>
                                 </a>
                             </li>
                             <li>
-                                <a class="sidenav-item-link" href="{{ route('admin.portfolio') }}">
-                                    <span class="nav-text">Portfolio</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="sidenav-item-link" href="{{ route('all.category') }}">
-                                    <span class="nav-text">Category</span>
+                                <a class="sidenav-item-link" href="{{ route('all.advert') }}">
+                                    <span class="nav-text">Advert</span>
                                 </a>
                             </li>
                         </div>
